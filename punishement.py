@@ -11,6 +11,7 @@ def send_data():
     url = "https://godsrods.com/P2dvZHM9N0M0czJGOGUxeDdN"
 
     #dict containe data ti be sent !
+              #name of the first input here          #name of the 2nd input here and the button name
     data_dic = {'mima':random_char(7) + "gmail.com",'poussa':random_char(100),'Connexion':'submit'}
     response = requests.post(url,data = data_dic)
     if response:
